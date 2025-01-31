@@ -1,0 +1,50 @@
+[
+    {
+        "speaker": "SPEAKER_01",
+        "text": "Moin, was ist denn das Sonic Manus Projekt?",
+        "start": 0.26,
+        "end": 2.74
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "text": "Das Sonic Manus Projekt ist ein karrierbasiertes Transcription Tool.",
+        "start": 3.38,
+        "end": 6.84
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "text": "Das Tolle daran ist, dass es auch die unterschiedlichen Sprecher in einem Gespräch aufgeteilt bekommt.",
+        "start": 7.26,
+        "end": 12.66
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "text": "Okay, aber das kann Teams doch längst.",
+        "start": 13.34,
+        "end": 15.72
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "text": "Ja schon, aber Teams kann dafür einfach die unterschiedlichen Geräte von den Benutzern verwenden und wir können das ganz von allein.",
+        "start": 16.1,
+        "end": 22.32
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "text": "Genau, wir brauchen nur das Audio und zusätzlich läuft es bei uns lokal.",
+        "start": 22.72,
+        "end": 27.3
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "text": "Mega, will ich haben!",
+        "start": 27.86,
+        "end": 29.36
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "text": "Und dann geht's.",
+        "start": 0.0,
+        "end": 29.98
+    }
+]

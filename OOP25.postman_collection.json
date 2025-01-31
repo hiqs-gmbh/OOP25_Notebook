@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "60af7194-d331-4cd5-ad58-df574d74aa71",
+		"name": "OOP25",
+		"description": "## Ollama Api Docs\n\n[https://github.com/ollama/ollama/blob/main/docs/api.md](https://github.com/ollama/ollama/blob/main/docs/api.md)\n\n## Ollama Models\n\n[https://ollama.com/library](https://ollama.com/library)\n\n## Ollama Docker Image\n\n[https://hub.docker.com/r/ollama/ollama](https://hub.docker.com/r/ollama/ollama)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24720947"
+	},
+	"item": [
+		{
+			"name": "HealthCheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:11434",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "11434"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListModels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:11434/api/tags",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "11434",
+					"path": [
+						"api",
+						"tags"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PullModel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"model\": \"{{model}}\",\n    \"stream\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:11434/api/pull",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "11434",
+					"path": [
+						"api",
+						"pull"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GenerateCompletion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"model\": \"{{model}}\",\n    \"prompt\": \"What color has the ocean?\",\n    \"stream\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:11434/api/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "11434",
+					"path": [
+						"api",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "model",
+			"value": "llama3.2:1b",
+			"type": "string"
+		}
+	]
+}

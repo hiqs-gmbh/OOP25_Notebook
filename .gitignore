@@ -176,3 +176,5 @@ cython_debug/
 
 /volumes
 /outputs
+
+id_ed25519*

@@ -9,6 +9,7 @@ Install [git](https://git-scm.com/downloads) if you don't already have it, then:
 
 
 ### Docker Compose
+Install [Docker Desktop](https://docs.docker.com/compose/install/) if you don't already have it, then: 
 Start the Docker Compose file ```docker-compose.yml``` (outside the Dev Container)
 
 

@@ -5,7 +5,7 @@
 ### Clone repo with https
 Clone with https (must have to develop inside container).
 
-`git clone [https://code.hiqs.de/HIQSLabAI/OOP25_Notebook.git](https://github.com/hiqs-gmbh/OOP25_Notebook.git)`. 
+`git clone https://github.com/hiqs-gmbh/OOP25_Notebook.git`. 
 
 ### Install Dev Container Extension 
 ![alt text](./imgs/extension.png)

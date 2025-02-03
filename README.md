@@ -5,7 +5,7 @@ Join the [Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_
 
 ## Prerequisites
 ### Clone repo with https
-Install [git](https://git-scm.com/downloads) if you don't already have it, then: 
+Install [git](https://git-scm.com/downloads) if you don't already have it, then:
 
 ```
 git clone https://github.com/hiqs-gmbh/OOP25_Notebook.git
@@ -13,7 +13,7 @@ git clone https://github.com/hiqs-gmbh/OOP25_Notebook.git
 
 
 ### Docker Desktop
-Install [Docker Desktop](https://docs.docker.com/compose/install/) if you don't already have it, then: 
+Install [Docker Desktop](https://docs.docker.com/compose/install/) if you don't already have it.
 
 
 ### VSCode Extensions

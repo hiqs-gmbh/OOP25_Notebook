@@ -12,7 +12,6 @@ Install [git](https://git-scm.com/downloads) if you don't already have it, then:
 
 ### Docker Desktop
 Install [Docker Desktop](https://docs.docker.com/compose/install/) if you don't already have it, then: 
-Start the Docker Compose file ```docker-compose.yml``` (outside the Dev Container)
 
 
 ### Extensions
@@ -25,35 +24,43 @@ Then install **Dev Containers Extension**:
 ![alt text](./imgs/dev_containers_extension.png)
 
 
+### Copy .env.example into .env
+Create an `.env` file on the same level as the `.env.example` and copy the entire content of the `.env.example` into your new `.env`.
+
 ### Hugging Face Token
 A [Hugging Face Token](https://huggingface.co/settings/tokens) is required to be able to download the Pyannote AI model.
 
 Create an account first on [https://huggingface.co/join](https://huggingface.co/join).
 
-Then go to Settings and Tokens and generate an Access Token. Then add this to the .env under ```PYANNOTE_HF_TOKEN```. 
+Then go to Settings and Tokens and generate an Access Token. Then add this to the `.env` under ```PYANNOTE_HF_TOKEN```. 
 
 If you wish, you can restrict the rights of your token (when selecting the ```Fine Grained``` type) to the following repositories.
 
 ![alt text](./imgs/hf_repo.png)
 
-
 ## Starting containers for development
 ### Ollama (LLM Inference Server)
 
-Start  
+Start the ```docker-compose.yml``` via `docker compose up`or through the Docker Extension in VSCode
 
-### Startup Dev Container
+![alt text](./imgs/compose_up.png)
+
+> [!NOTE]
+> Make sure Docker Desktop is running and you are not inside the Dev Container (next step).
+
+### Dev Container
 **Click button at the bottom left of VSCode**
-
 ![alt text](./imgs/dev_cont_button.png)
 
 **Open current folder in Dev Container**
-
 ![alt text](./imgs/open_folder_in_cont.png)
 
 
+### First steps in container
+Open the `multi-agent/foundation/download_models.ipynb` Notebook and run all cells. 
 
+> [!NOTE]
+> Make sure you selected a Python Kernel before you run the cells in the notebook.
 
-## Erste Schritte im Container
-run download-model.ipynb
-kopiere .env.example in neue .env
+![alt text](./imgs/run_notebook.png)
+

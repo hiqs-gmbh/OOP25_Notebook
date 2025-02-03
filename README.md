@@ -16,7 +16,7 @@ git clone https://github.com/hiqs-gmbh/OOP25_Notebook.git
 Install [Docker Desktop](https://docs.docker.com/compose/install/) if you don't already have it, then: 
 
 
-### VsCode Extensions
+### VSCode Extensions
 #### Docker 
 Install [Visual Studio Code](https://code.visualstudio.com/download) if you don't already have it, then install **Docker Extension**: 
 ![alt text](./imgs/docker_extension.png)

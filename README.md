@@ -7,14 +7,16 @@ Join the [Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_
 ### Clone repo with https
 Install [git](https://git-scm.com/downloads) if you don't already have it, then: 
 
-`git clone https://github.com/hiqs-gmbh/OOP25_Notebook.git`. 
+```
+git clone https://github.com/hiqs-gmbh/OOP25_Notebook.git
+```
 
 
 ### Docker Desktop
 Install [Docker Desktop](https://docs.docker.com/compose/install/) if you don't already have it, then: 
 
 
-### Extensions
+### VsCode Extensions
 #### Docker 
 Install [Visual Studio Code](https://code.visualstudio.com/download) if you don't already have it, then install **Docker Extension**: 
 ![alt text](./imgs/docker_extension.png)
@@ -24,7 +26,7 @@ Then install **Dev Containers Extension**:
 ![alt text](./imgs/dev_containers_extension.png)
 
 
-### Copy .env.example into .env
+### Copy `.env.example`  into `.env`
 Create an `.env` file on the same level as the `.env.example` and copy the entire content of the `.env.example` into your new `.env`.
 
 ### Hugging Face Token
@@ -50,9 +52,11 @@ Start the ```docker-compose.yml``` via `docker compose up`or through the Docker 
 
 ### Dev Container
 **Click button at the bottom left of VSCode**
+
 ![alt text](./imgs/dev_cont_button.png)
 
 **Open current folder in Dev Container**
+
 ![alt text](./imgs/open_folder_in_cont.png)
 
 

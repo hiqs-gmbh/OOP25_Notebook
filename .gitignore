@@ -178,3 +178,6 @@ cython_debug/
 /outputs
 
 id_ed25519*
+.DS_STORE
+
+/ollama

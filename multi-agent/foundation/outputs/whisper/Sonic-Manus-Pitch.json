@@ -1,61 +1,61 @@
 {
-    "text": " Moin, was ist denn das Sonic Manus Projekt? Das Sonic Manus Projekt ist ein karrierbasiertes Transcription Tool. Das Tolle daran ist, dass es auch die unterschiedlichen Sprecher in einem Gespr\u00e4ch aufgeteilt bekommt. Okay, aber das kann Teams doch l\u00e4ngst. Ja schon, aber Teams kann daf\u00fcr einfach die unterschiedlichen Ger\u00e4te von den Benutzern verwenden und wir k\u00f6nnen das ganz von allein. Genau, wir brauchen nur das Audio und zus\u00e4tzlich l\u00e4uft es bei uns lokal. Mega, will ich haben! Und dann geht's.",
+    "text": " Moin, was ist denn das Sonic Manus Projekt? Das Sonic Manus Projekt ist ein kairosiertes Transcription Tool. Das Tolle daran ist, dass es auch die unterschiedlichen Sprecher in einem Gespr\u00e4ch aufgeteilt bekommt. Okay, aber das kann Teams doch l\u00e4ngst. Er schon, aber Teams k\u00f6nnen daf\u00fcr einfach die unterschiedlichen Ger\u00e4te von den Benutzern verwenden und wir k\u00f6nnen das ganz von alleine. Genau, wir brauchen nur das Audio und zus\u00e4tzlich l\u00e4uft es bei uns lokal. Mika will ich haben.",
     "chunks": [
         {
             "timestamp": [
-                0.26,
-                2.74
+                0.0,
+                3.2
             ],
             "text": " Moin, was ist denn das Sonic Manus Projekt?"
         },
         {
             "timestamp": [
-                3.38,
-                6.84
+                3.2,
+                7.04
             ],
-            "text": " Das Sonic Manus Projekt ist ein karrierbasiertes Transcription Tool."
+            "text": " Das Sonic Manus Projekt ist ein kairosiertes Transcription Tool."
         },
         {
             "timestamp": [
-                7.26,
-                12.66
+                7.04,
+                13.0
             ],
             "text": " Das Tolle daran ist, dass es auch die unterschiedlichen Sprecher in einem Gespr\u00e4ch aufgeteilt bekommt."
         },
         {
             "timestamp": [
-                13.34,
-                15.72
+                13.0,
+                15.88
             ],
             "text": " Okay, aber das kann Teams doch l\u00e4ngst."
         },
         {
             "timestamp": [
-                16.1,
-                22.32
+                15.88,
+                21.0
             ],
-            "text": " Ja schon, aber Teams kann daf\u00fcr einfach die unterschiedlichen Ger\u00e4te von den Benutzern verwenden und wir k\u00f6nnen das ganz von allein."
+            "text": " Er schon, aber Teams k\u00f6nnen daf\u00fcr einfach die unterschiedlichen Ger\u00e4te von den Benutzern verwenden"
         },
         {
             "timestamp": [
-                22.72,
-                27.3
+                21.0,
+                22.6
+            ],
+            "text": " und wir k\u00f6nnen das ganz von alleine."
+        },
+        {
+            "timestamp": [
+                22.6,
+                27.6
             ],
             "text": " Genau, wir brauchen nur das Audio und zus\u00e4tzlich l\u00e4uft es bei uns lokal."
         },
         {
             "timestamp": [
-                27.86,
-                29.36
-            ],
-            "text": " Mega, will ich haben!"
-        },
-        {
-            "timestamp": [
                 0.0,
-                29.98
+                2.0
             ],
-            "text": " Und dann geht's."
+            "text": " Mika will ich haben."
         }
     ]
 }
